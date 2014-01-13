@@ -31,3 +31,8 @@ module.exports.hex = function(n){
   return b.toString('hex').toUpperCase();
 }
 
+module.exports.port = function(hex){
+  var b = new Buffer(hex,'hex');
+  return b.readUInt16LE(0);
+}
+

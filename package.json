@@ -1,7 +1,7 @@
 {
   "name": "hexip",
   "description": "translates hex formatted ip addresses to long and dot decimal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords":["ip","convert","hex","LE","address"],
   "repository": {
     "url": "git://github.com/soldair/node-hexip.git"
